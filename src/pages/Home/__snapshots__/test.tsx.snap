@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should snapshot the Home page 1`] = `
+.c0 {
+  background: #7C7C8A;
+}
+
+<main
+  class="c0"
+>
+  <h1>
+    Home
+  </h1>
+</main>
+`;
