@@ -3,6 +3,6 @@ import * as T from './types'
 
 export const HeaderContainer = styled.main<T.HeaderProps>`
   ${({ theme }) => css`
-    background: ${theme['gray-500']}  
-  `}  
+    background: ${theme['gray500']};
+  `}
 `
