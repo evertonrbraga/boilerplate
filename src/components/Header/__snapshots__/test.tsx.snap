@@ -2,7 +2,7 @@
 
 exports[`<Header /> should snapshot the Header component 1`] = `
 .c0 {
-  background: #7C7C8A;
+  background: #323238;
 }
 
 <main
