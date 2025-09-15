@@ -1,5 +1,4 @@
 import { ReactNode } from 'react'
-import { BrowserRouter } from 'react-router-dom'
 import { render as renderRtl } from '@testing-library/react'
 import { ThemeProvider } from 'styled-components'
 import { defaultTheme } from 'styles/themes/default'
@@ -10,11 +9,7 @@ interface WrapperProps {
 }
 
 function Wrapper({ children, theme = defaultTheme }: WrapperProps) {
-  return (
-    <BrowserRouter>
-      <ThemeProvider theme={theme}>{children}</ThemeProvider>
-    </BrowserRouter>
-  )
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
 }
 
 export function render(ui: ReactNode) {
